@@ -1,0 +1,22 @@
+.containerFooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+    height: min-content;
+    background-color: rgb(224, 224, 224);
+}
+
+.textFooter{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+@media (max-width: 600px) {
+    .textFooter {
+        font-size: 13px;
+    }
+}

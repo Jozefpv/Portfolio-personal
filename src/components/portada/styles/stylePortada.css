@@ -1,14 +1,17 @@
-.containerPortada{
+.containerPortada {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: 80vh;
+    min-height: 600px;
     justify-content: center;
     align-items: center;
     gap: 20px;
     margin-top: 60px;
+    padding-top: 20px;
 }
-.containerTextSection{
+
+.containerTextSection {
     text-align: center;
     height: min-content;
     display: flex;
@@ -16,44 +19,49 @@
     align-items: center;
 }
 
-.containerPhotoSection{
+.containerPhotoSection {
     padding: 0px;
     margin: 0px;
     height: min-content;
 }
 
-.titleText{
+.titleText {
     font-weight: bold;
     font-size: 50px;
     text-decoration: underline rgb(57, 235, 235);
 }
 
-.descriptionText{
+.descriptionText {
     font-size: 20px;
     width: 70%;
 }
 
-.containerIcons{
+.containerIcons {
     display: flex;
     gap: 10px;
     width: 70%;
     align-items: left;
-    
+
 }
 
-.iconItem{
+.iconItem {
     color: black;
     transition: 0.2s;
 }
 
-.profilePhoto{
+.profilePhoto {
     max-width: 300px;
     border-radius: 20px;
-    border: 3px solid  rgb(57, 235, 235);
+    border: 3px solid rgb(57, 235, 235);
 
 }
 
-.iconItem:hover{
-    color:  rgb(57, 235, 235);
+.iconItem:hover {
+    color: rgb(57, 235, 235);
 }
 
+@media (max-width: 600px) {
+    .containerPortada {
+        height: 600px;
+    }
+}

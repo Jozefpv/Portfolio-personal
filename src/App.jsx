@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/footer/Footer'
 import Navegation from './components/navbar/Navegation'
 import Points from './components/points/Points'
 import Portada from './components/portada/Portada'
@@ -17,6 +18,7 @@ function App() {
         <Stack/>
         <Points/>
         <Projects/>
+        <Footer/>
       </main>
     </>
   )
