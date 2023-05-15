@@ -1,6 +1,7 @@
 import './style/styleProjects.css'
 import GifApp from './image/gifapp.jpg'
 import BookingApp from './image/bookingApp.jpg'
+import Shop from './image/shop.jpg'
 
 function Projects() {
   return (
@@ -14,12 +15,20 @@ function Projects() {
             <p className='textGifApp'>GifApp</p>
           </a>
         </div>
-        <div className='boxGifAppNotAviable'>
+      
+        <div className='boxGifApp'>
+          <a target='_blank' href='https://jozefpv.github.io/React-Shop/' rel='noreferrer'>
+            <img className='photoGifApp' src={Shop}></img>
+            <p className='textGifApp'>React Shop - UseContext</p>
+          </a>
+        </div>
+
+        {/* <div className='boxGifAppNotAviable'>
           <a target='_blank' href='' rel='noreferrer'>
             <img className='photoGifApp' src={BookingApp}></img>
             <p className='textGifApp'>BookingApp</p>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   )
