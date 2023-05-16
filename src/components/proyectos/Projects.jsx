@@ -1,6 +1,6 @@
 import './style/styleProjects.css'
 import GifApp from './image/gifapp.jpg'
-import BookingApp from './image/bookingApp.jpg'
+// import BookingApp from './image/bookingApp.jpg'
 import Shop from './image/shop.jpg'
 
 function Projects() {
