@@ -1,6 +1,6 @@
 import './style/styleProjects.css'
 import GifApp from './image/gifapp.jpg'
-import BookingApp from './image/bookingApp.jpg'
+import BookingApp from './image/ruralweb.jpg'
 import TodoList from './image/todo.jpg'
 import Shop from './image/shop.jpg'
 
@@ -31,8 +31,8 @@ function Projects() {
           </a>
         </div>
 
-        <div className='boxGifAppNotAviable'>
-          <a target='_blank' href='' rel='noreferrer'>
+        <div className='boxGifApp'>
+          <a target='_blank' href='https://sanborondonweb.web.app/' rel='noreferrer'>
             <img className='photoGifApp' src={BookingApp}></img>
             <p className='textGifApp'>BookingApp</p>
           </a>
